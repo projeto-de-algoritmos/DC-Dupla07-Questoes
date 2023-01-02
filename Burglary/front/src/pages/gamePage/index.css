@@ -1,0 +1,84 @@
+.begin-instruction {
+    color: #ffffff;
+    width: 60%;
+    font-weight: normal;
+    font-size: larger;
+}
+
+.value-form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 100%;
+}
+
+.value-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.answer-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    height: 25px;
+}
+
+.button-return-game {
+    background-color: #6e2100;
+    border-color: #3a1207;
+    border-radius: 4px;
+    height: 35px;
+    width: 130px;
+    font-size: medium;
+    color: #db8d57;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+.button-try-again {
+    background-color: #6e2100;
+    border-color: #3a1207;
+    font-size: medium;
+    color: #db8d57;
+    cursor: pointer;
+    border-radius: 4px;
+    height: 40px;
+    width: 150px;
+}
+
+.container {
+    width: 500px;
+    height: 250px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: #ffffff;
+    margin-bottom: 16px;
+    padding: 16px;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
