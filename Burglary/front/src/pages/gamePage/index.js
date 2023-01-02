@@ -79,6 +79,7 @@ function GamePage() {
 
     function handleGiveUp() {
         setGiveUp(true)
+        setTryAgain(false)
         setShowBurglary(false)
     }
 
@@ -141,13 +142,13 @@ function GamePage() {
                     {burglary.possiveisItens.length === 1 ? (
                         <>
                             <h2 className='begin-instruction'>
-                                Você acertou! O ladrão roubou {burglary.possiveisQuantidades} item!
+                                Você acertou! O ladrão roubou {burglary.possiveisQuantidades} objeto(s)!
                             </h2>
                             <h2 className='begin-instruction'>
                                 {burglary.possiveisQuantidades[0] === 0 ? 
                                 `Houve um erro na pesagem do armazém.` 
                                 : 
-                                `Sendo ele: ${burglary.possiveisItens} `}
+                                `Sendo ele(s): ${burglary.possiveisItens} `}
                             </h2>
                         </>
                     ) : (
@@ -178,13 +179,13 @@ function GamePage() {
                     {burglary.possiveisItens.length === 1 ? (
                         <>
                             <h2 className='begin-instruction'>
-                                O ladrão roubou {burglary.possiveisQuantidades} item!
+                                O ladrão roubou {burglary.possiveisQuantidades} objeto(s)!
                             </h2>
                             <h2 className='begin-instruction'>
                                 {burglary.possiveisQuantidades[0] === 0 ? 
                                 `Houve um erro na pesagem do armazém.` 
                                 : 
-                                `Sendo ele: ${burglary.possiveisItens} `}
+                                `Sendo ele(s): ${burglary.possiveisItens} `}
                             </h2>
                         </>
                     ) : (
@@ -223,7 +224,10 @@ function GamePage() {
                             Você errou! O ladrão não roubou 0 itens!
                         </h2>
                     }
-                    <button className="button-try-again" onClick={handleTryAgain}>Tente Novamente</button>
+                    <div className='button-customize'>
+                        <button className="button-try-again" onClick={handleTryAgain}>Tente Novamente</button>
+                        <button className="button-try-again" onClick={handleGiveUp}>Mostrar Resposta</button>
+                    </div>
                 </div>
             )}
 
