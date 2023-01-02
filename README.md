@@ -41,6 +41,10 @@ Um ladrão veio e roubou uma quantidade x de itens, como o armazém lhe mostra o
 **Linguagem**: Python e ReactJS<br>
 **Framework**: FastAPI<br>
 Precisa rodar o front e o back ao mesmo tempo, recomenda-se utilizar dois terminais para tal, um na pasta back e outra na pasta front.
+### Primeiro entre na pasta Burglary:
+```
+cd Burglary
+```
 ### Dentro da pasta back: 
 Pode ser que utilize python ao invés de python3 (válido para todos os comandos)
 Entrar no back:
