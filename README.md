@@ -86,6 +86,9 @@ npm start
 4. Vendo o peso de todos dos itens antes do roubo e o peso total que sumiu do armazém, tente encontrar quantos itens o ladrão pode ter roubado
 5. Clicar em enviar
 
+## Apresentação
+https://user-images.githubusercontent.com/40813329/210288852-3608daad-4718-4337-8d5b-c02af1030e60.mp4
+
 ## Outros 
 O jogo foi baseado no exercício [Burglary Boat](https://www.spoj.com/problems/BURGLARY/).
 
